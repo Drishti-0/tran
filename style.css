@@ -1,0 +1,29 @@
+img{
+    height: 300px;
+     width:400px;
+    border-radius: 10%;
+    transition: width 2s;
+    transition: height 2s;
+}
+img:hover{
+    width: 410px;
+    height: 420px;
+}
+.container{
+    display: flex;
+    grid-gap: 60px;
+    background-color: lightgreen;
+    padding: 10px;
+}
+.monument{
+    text-align: center;
+}
+.info{
+    text-align: center;
+    font-size: medium;
+    background-color: lightgreen;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
